@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--Kaysen Hansen's Web Page-->
+<html>
+
+  <head>
+    <title> Jokes and Puns Page </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <nav>
+    <ul id="nav">
+      <li><a class = "one" href="index.html">Home Page</a></li>
+      <li><a class="active" href="jokes.html">Jokes and Puns</a></li>
+      <li><a class = "three" href="oxymorons.html">Oxymorons for Morons</a></li>
+      <li><a class = "two" href="engineer.html">Engineers Conversions</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <h1>Welcome to Our Jokes and Puns</h1><h6>(page)</h6><h1>!</h1></br>
+    <h3> Hover over the right side to uncover the answer!</h3><h2>
+
+            <!--<button onclick="cover()">Cover All Answers</button>
+            <button onclick="uncover()">Uncover All Answers</button>
+
+            <script>
+            function cover() {
+                document.getElementbyClassName("mycover").style.backgroundColor = "black"
+            }
+            function uncover() {
+                document.getElementByClassName("mycover").style.backgroundColor = "transparent"
+            }
+          </script>!-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<button type="button" id="uncover-color">Uncover All Answers</button>
+
+    <script>
+$('body').on('click', '#uncover-color', function(){
+$('.color-div').each(function(){
+$(this).css('background-color', $(this).data('color'));
+})
+})
+    </script>
+      <table>
+        <tr>
+          <th>Joke</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>There's only 10 types of people.</td>
+          <td class="color-div" data-color="transparent">Those who understand binary and those who don't.</td>
+        </tr>
+        <tr>
+          <td>What does the military use acid for?</td>
+          <td class="color-div" data-color="transparent">To neutralize the enemy base.</td>
+        </tr>
+        <tr>
+          <td>If your arteries clog on a golf course,</td>
+          <td class="color-div" data-color="transparent">do you have a stroke?</td>
+        </tr>
+        <tr>
+          <td>Am I perfect?</br>Am I striving to be better every day?</td>
+          <td class="color-div" data-color="transparent">No</br>Also No.</td>
+        </tr>
+        <tr>
+          <th>Pun</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>I forgot how to throw a boomerang...</td>
+          <td class="color-div" data-color="transparent">but it came back to me</td>
+        </tr>
+        <tr>
+          <td>I had a joke about construction...</td>
+          <td class="color-div" data-color="transparent">but I'm still working on it</td>
+        </tr>
+        <tr>
+          <td>A magician was walking down the street...</td>
+          <td class="color-div" data-color="transparent">then he turned into a grocery store.</td>
+        </tr>
+        <tr>
+          <td>I'm reading a book about Gravity...</td>
+          <td class="color-div" data-color="transparent">it's impossible to put down.</td>
+        </tr>
+        <tr>
+          <td>There's a new type of broom...</td>
+          <td class="color-div" data-color="transparent">it's sweeping the nation.</td>
+        </tr>
+        <tr>
+          <td>Velcro...</td>
+          <td class="color-div" data-color="transparent">what a rip off.</td>
+        </tr>
+        <tr>
+          <td>The rotation of the earth...</td>
+          <td class="color-div" data-color="transparent">really makes my day.</td>
+        </tr>
+        <tr>
+          <td>To the guy who invented zero...</td>
+          <td class="color-div" data-color="transparent">thanks for nothing.</td>
+        </tr>
+        <tr>
+          <td>I used to have a fear of hurdles...</td>
+          <td class="color-div" data-color="transparent"> But I got over it</td>
+        </tr>
+        <tr>
+          <td>No matter how much you push the envelope...</td>
+          <td class="color-div" data-color="transparent">It's still stationery</td>
+        </tr>
+        <tr>
+          <td>I'm thinking about starting a band called cellophane...</td>
+          <td class="color-div" data-color="transparent">I'll rap</td>
+        </tr>
+      </table></h2>
+
+<iframe
+ width = "560px"
+ height = "315px"
+ src = "https://www.youtube.com/embed/ntbw4C2NGPk?start=32&end=56&controls=0" frameborder = "0" allowfullscreen>
+</iframe>
+
+
+</br>Watch Full Video <a href = "https://www.youtube.com/v/xXdb16-RRwI?" target="_blank" >Here</a>
+</br>
+<img src = "images\japan.JPG" height = "360px"   width = "388.18px">
+
+</br><footer>
+<h3 id="left"> Built by: Kaysen Hansen</h3>
+<a class="foot" href="#top">Go to top</a>
+<h3 id="right" class ="mirror">Built by: Kaysen Hansen</h3>
+</footer>
+
+</body>
+
+</html>
